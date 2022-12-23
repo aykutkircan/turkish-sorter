@@ -1,0 +1,38 @@
+{
+  "name": "turkish-sorter",
+  "version": "1.0.0",
+  "description": "Turkis sorter function",
+  "type": "module",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": "7.10.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "sort",
+    "turkish",
+    "sort array by field",
+    "turkish sorter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aykutkircan"
+  },
+  "author": {
+    "name": "Aykut Kırcan",
+    "email": "aykutkircan@icloud.com",
+    "github": "https://github.com/aykutkircan"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
